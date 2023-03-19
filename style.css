@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=Roboto+Condensed&display=swap");
+
+* {
+
+
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: black;
+  color: aliceblue;
+}
+
+.strong {
+  color: aqua;
+}
+
+.apresentacao {
+  margin: 8% 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apresentacao_conteudo {
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30px;
+}
+
+.p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.social {
+    
+    text-decoration: none;
+background-color: aqua;
+width: 100px;
+text-align: center;
+border-radius: 12px;
+font-size: 19px;
+font-weight: 600;
+padding: 10px 0;
+color: black;
+font-family: "Roboto Condensed", sans-serif;
+}
+
+.img{
+
+    border-radius: 10%;
+    max-width: 100%;
+    height: auto;
+    float: right;
+    margin-left: 40px;
+  
+}
